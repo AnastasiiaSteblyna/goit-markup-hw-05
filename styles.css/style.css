@@ -359,15 +359,16 @@ header {
   bottom: 0;
   width: 370px;
   height: 70px;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   background-color: rgba(47, 48, 58, 0.8);
 
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-bg-color);
@@ -475,8 +476,8 @@ header {
 /* Clients section Постоянные клиенты */
 
 .clients {
-  padding-top: 109px;
-  padding-bottom: 58px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .clients-title {
@@ -747,7 +748,7 @@ header {
   top: 0;
   left: 0;
 
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   display: inline-block;
